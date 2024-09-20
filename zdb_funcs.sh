@@ -13,5 +13,3 @@ zdb_tags() {
 zdb_mentions() {
 	sqlite3 $1 'select distinct(lower(mention)) from mentions' | sort -f | uniq -i
 }
-
-
