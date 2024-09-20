@@ -28,5 +28,5 @@ class Zettel(BaseModel):
     mentions: List[str] = [""]
     cite: CiteField = CiteField()
     dates: List[DateField] = [DateField()]
-    filename: Path = Path()
+    filename: str = Path().resolve(strict=True).__str__()
     document: str = ""
