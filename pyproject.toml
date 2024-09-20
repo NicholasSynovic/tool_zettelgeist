@@ -3,11 +3,10 @@ name = "src"
 version = "0.1.0"
 description = "ZettelGeist - a historigraphically focused notetaking system"
 license = "GNU Affero"
-authors = ["George K. Thiruvathukal <gkt@cs.luc.edu", "Nicholas M. Synovic <nicholas.synovic@gmail.com>"]
+authors = ["George K. Thiruvathukal <gkt@cs.luc.edu>", "Nicholas M. Synovic <nicholas.synovic@gmail.com>"]
 readme = "README.md"
 homepage = "https://github.com/ZettelGeist/ZettelGeist"
 repository = "https://github.com/ZettelGeist/ZettelGeist"
-url = "https://github.com/ZettelGeist/ZettelGeist"
 keywords = ["notetaking", "YAML", "Markdown", "sqlite3", "GitHub"]
 classifiers = ["Development Status :: 4 - Beta", "Programming Language :: Python :: 3", "Programming Language :: Python :: 3.10", "Programming Language :: Python :: 3 :: Only", "Topic :: Software Development", "License :: OSI Approved :: Apache Software License"]
 
