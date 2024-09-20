@@ -1,5 +1,9 @@
+from src.classes.zettel import Zettel
+
+
 def main() -> None:
-    pass
+    z: Zettel = Zettel()
+    print(z.toYAML())
 
 
 if __name__ == "__main__":
