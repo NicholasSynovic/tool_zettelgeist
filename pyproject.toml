@@ -14,6 +14,7 @@ classifiers = ["Development Status :: 4 - Beta", "Programming Language :: Python
 [tool.poetry.dependencies]
 python = "^3.10"
 pytest = "^8.3.3"
+pyyaml = "^6.0.2"
 
 
 [build-system]
